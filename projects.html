@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Georgia, serif;
+      color: #4b4453;
+      background-color: #fdf4ff; /* A soft background to match your theme */
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 600px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #3f3b46;
+      margin-bottom: 30px;
+    }
+    .project-card {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 24px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 24px rgba(168, 85, 247, 0.08);
+      border: 1px solid rgba(255,255,255,0.5);
+    }
+    .project-title {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #6b216c;
+    }
+    .project-desc {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .project-link {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: #7c3f7c;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .project-link:hover {
+      background-color: #6b216c;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #7c6f7b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-btn:hover { color: #6b216c; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <a href="index.html" class="back-btn">← Back to Linktree</a>
+    
+    <h1>My Projects</h1>
+
+    <div class="project-card">
+      <h2 class="project-title">Project Name 1</h2>
+      <p class="project-desc">A brief description of what this project is, what technologies you used (like Python, HTML, etc.), and what problem it solves.</p>
+      <a href="https://github.com/yourusername/repo-link" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h2 class="project-title">Project Name 2</h2>
+      <p class="project-desc">Another cool project you built. Mentioning ethical hacking tools or scripts you've written goes great here!</p>
+      <a href="https://github.com/yourusername/repo-link-2" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
