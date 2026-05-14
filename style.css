@@ -60,7 +60,7 @@ body {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center; /* Changed from "center top" */
   margin: 0 auto 24px;
   display: block;
   border: 5px solid rgba(255,255,255,0.8);
